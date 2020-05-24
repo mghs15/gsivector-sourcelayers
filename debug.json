@@ -1,0 +1,880 @@
+{
+  "title": "デバッグ用",
+  "group": [
+    {
+      "id": "debug",
+      "title": "debug",
+      "editZIndex": true
+    }
+  ],
+  "list": [
+    
+    {
+      "title": "waterarea",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+               "==",
+               "$type",
+               "Polygon"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "fill",
+              "source-layer": "waterarea",
+              "info": {
+                "type": "fill"
+              },
+              "draw": {
+                "fill-color": "rgb(190,210,255)",
+                "fill-style": "fill",
+                "fill-visible": true,
+                "outline-visible": false
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "landforma",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+               "==",
+               "$type",
+               "Polygon"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "fill",
+              "source-layer": "landforma",
+              "info": {
+                "type": "fill"
+              },
+              "draw": {
+                "fill-color": "rgb(190,355,210)",
+                "fill-style": "fill",
+                "fill-visible": true,
+                "outline-visible": false
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "structurea",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+               "==",
+               "$type",
+               "Polygon"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "fill",
+              "source-layer": "structurea",
+              "info": {
+                "type": "fill"
+              },
+              "draw": {
+                "fill-color": "rgb(255,190,210)",
+                "fill-style": "fill",
+                "fill-visible": true,
+                "outline-visible": false
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "building (polygon)",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+               "==",
+               "$type",
+               "Polygon"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "fill",
+              "source-layer": "building",
+              "info": {
+                "type": "fill"
+              },
+              "draw": {
+                "fill-color": "rgb(210,190,255)",
+                "fill-style": "fill",
+                "fill-visible": true,
+                "outline-visible": false
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    
+    
+    
+    
+    {
+      "title": "symbol",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 18,
+          "filter": [
+            "all",
+            [
+               "==",
+               "$type",
+               "Point"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "symbol",
+              "source-layer": "symbol",
+              "info": [],
+              "draw": {
+                    "icon-allow-overlap": true,
+                    "icon-size": 0.3,
+                    "icon-image": "人口50万人未満-500",
+                    "icon-pitch-alignment": "viewport",
+                    "icon-rotation-alignment": "viewport",
+                    "text-pitch-alignment": "viewport",
+                    "text-rotation-alignment": "viewport",
+                    "text-offset": "auto",
+                    "text-visible": false,
+                    "icon-visible": true,
+                    "text-rotate": "auto",
+                    "text-anchor": "auto",
+                    "icon-group": "std"
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "label",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 18,
+          "filter": [
+            "all",
+            [
+               "==",
+               "$type",
+               "Point"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "symbol",
+              "source-layer": "label",
+              "info": [],
+              "draw": {
+                    "icon-allow-overlap": true,
+                    "icon-size": 1,
+                    "icon-image": "水深-20",
+                    "icon-pitch-alignment": "viewport",
+                    "icon-rotation-alignment": "viewport",
+                    "text-pitch-alignment": "viewport",
+                    "text-rotation-alignment": "viewport",
+                    "text-offset": "auto",
+                    "text-visible": false,
+                    "icon-visible": true,
+                    "text-rotate": "auto",
+                    "text-anchor": "auto",
+                    "icon-group": "std"
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "landformp",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 18,
+          "filter": [
+            "all",
+            [
+               "==",
+               "$type",
+               "Point"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "symbol",
+              "source-layer": "landformp",
+              "info": [],
+              "draw": {
+                    "icon-allow-overlap": true,
+                    "icon-size": 0.4,
+                    "icon-image": "インターチェンジ-20",
+                    "icon-pitch-alignment": "viewport",
+                    "icon-rotation-alignment": "viewport",
+                    "text-pitch-alignment": "viewport",
+                    "text-rotation-alignment": "viewport",
+                    "text-offset": "auto",
+                    "text-visible": false,
+                    "icon-visible": true,
+                    "text-rotate": "auto",
+                    "text-anchor": "auto",
+                    "icon-group": "std"
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "transp",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 18,
+          "filter": [
+            "all",
+            [
+               "==",
+               "$type",
+               "Point"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "symbol",
+              "source-layer": "transp",
+              "info": [],
+              "draw": {
+                    "icon-allow-overlap": true,
+                    "icon-size": 0.4,
+                    "icon-image": "ジャンクション-20",
+                    "icon-pitch-alignment": "viewport",
+                    "icon-rotation-alignment": "viewport",
+                    "text-pitch-alignment": "viewport",
+                    "text-rotation-alignment": "viewport",
+                    "text-offset": "auto",
+                    "text-visible": false,
+                    "icon-visible": true,
+                    "text-rotate": "auto",
+                    "text-anchor": "auto",
+                    "icon-group": "std"
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "elevation",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 18,
+          "filter": [
+            "all",
+            [
+               "==",
+               "$type",
+               "Point"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "symbol",
+              "source-layer": "elevation",
+              "info": [],
+              "draw": {
+                    "icon-allow-overlap": true,
+                    "icon-size": 0.4,
+                    "icon-image": "サービスエリア-20",
+                    "icon-pitch-alignment": "viewport",
+                    "icon-rotation-alignment": "viewport",
+                    "text-pitch-alignment": "viewport",
+                    "text-rotation-alignment": "viewport",
+                    "text-offset": "auto",
+                    "text-visible": false,
+                    "icon-visible": true,
+                    "text-rotate": "auto",
+                    "text-anchor": "auto",
+                    "icon-group": "std"
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    
+    
+    {
+      "title": "boundary",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+              "==",
+              "$type",
+              "LineString"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "line",
+              "source-layer": "boundary",
+              "info": {
+                "type": "line"
+              },
+              "draw": {
+                    "line-cap": "square",
+                    "line-color": "rgba(200,100,200,1)",
+                    "line-width": 1,
+                    "line-visible": true
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "road",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+              "==",
+              "$type",
+              "LineString"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "line",
+              "source-layer": "road",
+              "info": {
+                "type": "line"
+              },
+              "draw": {
+                    "line-cap": "square",
+                    "line-color": "rgba(100,100,100,1)",
+                    "line-width": 1,
+                    "line-visible": true
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "railway",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+              "==",
+              "$type",
+              "LineString"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "line",
+              "source-layer": "railway",
+              "info": {
+                "type": "line"
+              },
+              "draw": {
+                    "line-cap": "square",
+                    "line-color": "rgba(255,100,100,1)",
+                    "line-width": 1,
+                    "line-visible": true
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "searoute",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+              "==",
+              "$type",
+              "LineString"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "line",
+              "source-layer": "searoute",
+              "info": {
+                "type": "line"
+              },
+              "draw": {
+                    "line-cap": "square",
+                    "line-color": "rgba(255,200,200,1)",
+                    "line-width": 1,
+                    "line-visible": true
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "coastline",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+              "==",
+              "$type",
+              "LineString"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "line",
+              "source-layer": "coastline",
+              "info": {
+                "type": "line"
+              },
+              "draw": {
+                    "line-cap": "square",
+                    "line-color": "rgba(255,0,0,1)",
+                    "line-width": 1,
+                    "line-visible": true
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "river",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+              "==",
+              "$type",
+              "LineString"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "line",
+              "source-layer": "river",
+              "info": {
+                "type": "line"
+              },
+              "draw": {
+                    "line-cap": "square",
+                    "line-color": "rgba(0,100,255,1)",
+                    "line-width": 1,
+                    "line-visible": true
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "lake",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+              "==",
+              "$type",
+              "LineString"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "line",
+              "source-layer": "lake",
+              "info": {
+                "type": "line"
+              },
+              "draw": {
+                    "line-cap": "square",
+                    "line-color": "rgba(100,0,255,1)",
+                    "line-width": 1,
+                    "line-visible": true
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "contour",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+              "==",
+              "$type",
+              "LineString"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "line",
+              "source-layer": "contour",
+              "info": {
+                "type": "line"
+              },
+              "draw": {
+                    "line-cap": "square",
+                    "line-color": "rgba(255,255,100,1)",
+                    "line-width": 1,
+                    "line-visible": true
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "transl",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+              "==",
+              "$type",
+              "LineString"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "line",
+              "source-layer": "transl",
+              "info": {
+                "type": "line"
+              },
+              "draw": {
+                    "line-cap": "square",
+                    "line-color": "rgba(150,255,0,1)",
+                    "line-width": 1,
+                    "line-visible": true
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "structurel",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+              "==",
+              "$type",
+              "LineString"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "line",
+              "source-layer": "structurel",
+              "info": {
+                "type": "line"
+              },
+              "draw": {
+                    "line-cap": "square",
+                    "line-color": "rgba(0,255,0,1)",
+                    "line-width": 1,
+                    "line-visible": true
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "landforml",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+              "==",
+              "$type",
+              "LineString"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "line",
+              "source-layer": "landforml",
+              "info": {
+                "type": "line"
+              },
+              "draw": {
+                    "line-cap": "square",
+                    "line-color": "rgba(255,100,255,1)",
+                    "line-width": 1,
+                    "line-visible": true
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "building (line)",
+      "type": "item",
+      "group": [
+        "debug"
+      ],
+      "zIndex": 3,
+      "list": [
+        {
+          "minzoom": 4,
+          "maxzoom": 17,
+          "filter": [
+            "all",
+            [
+              "==",
+              "$type",
+              "LineString"
+            ]
+          ],
+          "type": "layer",
+          "list": [
+            {
+              "type": "line",
+              "source-layer": "building",
+              "info": {
+                "type": "line"
+              },
+              "draw": {
+                    "line-cap": "square",
+                    "line-color": "rgba(255,0,255,1)",
+                    "line-width": 1,
+                    "line-visible": true
+              }
+            }
+          ],
+          "visible": true
+        }
+      ]
+    }
+    
+    
+    
+    
+    
+
+  ],
+  "maxNativeZoom": 16
+}
